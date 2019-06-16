@@ -1,4 +1,4 @@
-package com.ali.wassouf.spring.cloud.client;
+package com.ali.wassouf.spring.cloud.server;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

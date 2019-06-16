@@ -1,4 +1,4 @@
-package com.ali.wassouf.spring.cloud.client;
+package com.ali.wassouf.spring.cloud.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
