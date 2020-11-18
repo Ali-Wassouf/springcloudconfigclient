@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          password: ${PASSWORD}
+          username: ${USERNAME}
+          uri: https://github.com/Ali-Wassouf/springcloudconfigrepo
+          repos:
+            service2:
+              pattern: '*/service2'
+              uri: https://github.com/Ali-Wassouf/springcloudconfigrepo2
