@@ -6,11 +6,13 @@ spring:
   cloud:
     config:
       server:
+        monitor:
+          github:
+            enabled: true
+          gitee:
+            enabled: true
         git:
           password: ${PASSWORD}
           username: ${USERNAME}
           uri: https://github.com/Ali-Wassouf/springcloudconfigrepo
-          repos:
-            service2:
-              pattern: '*/service2'
-              uri: https://github.com/Ali-Wassouf/springcloudconfigrepo2
+          search-paths: '{application}'
